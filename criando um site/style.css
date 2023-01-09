@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:#f5ffb6 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+    background-image: linear-gradient(to bottom, rgb(25, 125, 25), rgb(9, 46, 9) );
+    height: 150px;
+    padding-top: 40px;
+}
+
+header > h1{
+    color: white;
+    font-family: 'Bebas Neue', cursiva;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px  rgba(0, 0, 0, 0.255);
+
+}
+
+header > p{
+    text-align: center;
+    color: white;
+}
+
+nav{
+    background-color: rgb(9, 46, 9);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.196);
+}
+
+nav > a{
+    color: rgba(255, 255, 255, 0.743);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav > a:hover{
+    background-color: darkgreen;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    min-width: 300px;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.485);
+    border-radius: 10px;
+}
+
+
+main p{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main a{
+    color: blue;
+}
+
+
+main > img{
+    width: 100%;
+    
+}
+
+main > div.bugdroid{
+    margin: auto;
+}
+
+
+
+div.video {
+    background-color: rgb(7, 65, 23);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+    
+
+main > h1{
+
+}
+
+main > h2{
+
+}
+
+aside{
+    background-color: #2b7c1d;
+    border-radius: 6px;
+}
+aside > h3{
+    color: #ffffff;
+    margin: 5px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    margin-left: 10px;
+    
+
+}
+
+footer{
+    background-color: rgb(3, 53, 3);
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
+
+footer a{
+    color: blue;
+}
+

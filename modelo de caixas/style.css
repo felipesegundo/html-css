@@ -1,0 +1,19 @@
+h1{
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin-top: 10px ;
+    margin-right: 10px ;
+    margin-bottom: 10px ;
+    margin-left: 10px;
+    margin: auto;
+}
